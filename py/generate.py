@@ -37,8 +37,7 @@ from pathlib import Path
 import re
 from textwrap import dedent, indent as tw_indent
 import typing
-
-import inflection  # type: ignore
+  
 
 
 log_level = getattr(logging, os.environ.get('LOG_LEVEL', 'warning').upper())
